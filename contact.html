@@ -3,55 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact [Your Name], Web Developer. Get in touch for collaborations or inquiries.">
-    <title>Contact | [MALLIKA BHUMIREDDYPALLE]</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Event Management System - Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="logo">
-            <h1>[MALLIKA BHUMIREDDYPALLE]</h1>
-        </div>
-        <ul class="nav-links">
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="events.html">Manage Events</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-form">
+            <h2>Get in Touch</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <p>If you would like to get in touch, please fill out the form below or reach me through my social media channels.</p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
 
-        <!-- Contact Form -->
-        <form>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+                <label for="message">Message:</label>
+                <textarea id="message" rows="5" required></textarea>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-
-        <!-- Social Links -->
-        <div class="social-links">
-            <h3>Connect with me</h3>
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-            <a href="mailto:youremail@example.com">Email</a>
-        </div>
-    </section>
-
-    <!-- Footer -->
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2024 [MALLIKA BHUMIREDDYPALLE]. All Rights Reserved.</p>
+        <p>&copy; 2024 Event Management System. All rights reserved.</p>
     </footer>
 </body>
 </html>
